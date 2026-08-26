@@ -1,0 +1,15 @@
+{
+  "name": "qa-portfolio-saucedemo",
+  "version": "1.0.0",
+  "description": "Suite de testing E2E con Playwright + TypeScript sobre SauceDemo, como proyecto de portfolio QA.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "typescript": "^5.5.0"
+  }
+}
