@@ -19,6 +19,14 @@ a portfolio project for QA Analyst / QA Automation roles.
   tests run automatically on every push, on Chromium, Firefox, and
   WebKit.
 
+## Manual test plan (spreadsheet)
+
+The same 16 test cases are also tracked in spreadsheet form, with an
+added coverage summary and a documented defect:
+
+- 📋 [View the test plan on Google Sheets](https://docs.google.com/spreadsheets/d/1mwWZ2KASddXGxdRd4Xx9a9XsmTq2Dk6v0vliwiZQHgo/edit?usp=sharing) — no download needed
+- Or download the file directly from this repo: [`manual-test-plan/SauceDemo_Test_Cases.xlsx`](./manual-test-plan/SauceDemo_Test_Cases.xlsx)
+
 ## Modules covered
 
 | Module | Cases | Includes negative cases |
@@ -55,11 +63,12 @@ npm run report        # open the latest generated HTML report
 ## Project structure
 
 ```
-├── pages/                  # Page Objects (LoginPage, InventoryPage, CartPage, CheckoutPage)
-├── tests/                  # Playwright specs, organized by module
-├── .github/workflows/      # CI pipeline
-├── TEST_CASES.md           # Manual test plan with coverage matrix
-├── playwright.config.ts    # Configuration (multi-browser, screenshots, traces)
+├── manual-test-plan/        # Test plan spreadsheet (Excel/Google Sheets version)
+├── pages/                   # Page Objects (LoginPage, InventoryPage, CartPage, CheckoutPage)
+├── tests/                   # Playwright specs, organized by module
+├── .github/workflows/       # CI pipeline
+├── TEST_CASES.md            # Manual test plan with coverage matrix
+├── playwright.config.ts     # Configuration (multi-browser, screenshots, traces)
 └── package.json
 ```
 
