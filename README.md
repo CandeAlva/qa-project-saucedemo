@@ -86,4 +86,3 @@ You can see more about my background on [LinkedIn](https://linkedin.com/in/cande
 ---
 
 *SauceDemo is a public demo application created by Sauce Labs specifically for practicing automated testing. It does not represent a real product and contains no real user data.*
-
